@@ -445,7 +445,8 @@ Assigment 1 part-2
 Question-1
 For supervised learning(or classification) 
 Supervised learning is basically a teaching and learning method where the machine learns from a given data set and implement the same 
-learning on a new data set.we train machine with a labelled data set and then checks its learning on a new unlabelled data set. 
+learning on a new data set.we train machine with a labelled data set and then checks its learning on a new unlabelled data set.Supervised
+learning can be used in spam filtering or in detecting tumours.
 It can be classified into two types regression and classification 
 Regression works on continuous values.
 Classification basically means giving answer in true or false for example if a given email is spam or not , or whether it will rain or not.
