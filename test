@@ -475,13 +475,14 @@ interactive environment.
 
 Machine learning vs deep learning 
 Deep learning is a subset of machine learning. In machine learning we use supervised learning which requires human intervention whereas
-in deep learning we use unsupervised learning where the computer itself find abstracts similar patterns by passing data through 
-different layers and tells us about the output and can also work on a large data set. Deep learning involves more than 3 layers. 
+in deep learning we use unsupervised learning where the computer itself abstracts similar patterns by passing data through 
+different layers or neural networks and tells us about the output. Deep learning can also work on a large data set. 
+Deep learning involves more than 3 layers of neural network. 
 Deep learning requires a large amount of data to work on and can produce more accurate results than machine learning.machine learning 
 relies on human input which limits the model ability to work on new data set.
 Deep learning has its own disadvantages like it requires a large amount of labelled data to produce more efficient results and those 
-data sets are expensive whereas ML can produce somewhat same result with less data. Deep learning also requires GPUs which more 
-expensive as compared to CPUs. Developing models of linear regression are more preferred in ML as it does the task in a more simple way.
+data sets are expensive whereas ML can produce somewhat same result with less data. Deep learning also requires GPUs which are more 
+expensive as compared to CPUs. Developing models of linear regression are more preferred in ML as it finishes the task in a more simple way.
 Both have their own strengths and weaknesses so we should choose between the two on the basis of our problem statement. 
 
 Question 2
