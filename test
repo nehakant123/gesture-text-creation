@@ -456,7 +456,7 @@ Unsupervised learning(or clustering)
 Essentially it means learning on its own. We do not train machine with labelled data and directly implements it on unlabelled data and 
 the machine tries to find similar data by identifying similar patterns , colour and shape and store it as a cluster.
 Unsupervised can be used for recommending movies, song, books ,or clothes  as the model observes similarity in pattern and behaviour of 
-various users. 
+various users.It can also be used in fraud detection and in image or document clustering.
 Unsupervised learning is uncertain as compared to supervised learning because firstly it works on a model to identify similar patterns 
 which makes this work a bit challenging and it does not have a clear objective like it involves identifying similar patterns and then 
 clustering it or reducing  the dimensionality of data set which somewhat affects the accuracy of the model.
@@ -465,7 +465,8 @@ Reinforcement learning
 It’s a kind of hit and trial method. The models tries every possible path to reach the solution and then chooses the most 
 optimal path for the problem. The  model completely depends not the decision taken by the software without having any previous experience. 
 It is autonomous. 
-Tesla uses reinforcement learning where the car learns the control and navigate itself in various tricky situations.
+Tesla uses reinforcement learning where the car learns the control and navigate itself in various tricky situations. It can also be
+used in portfolio mangement and making optimal gaming strategy.
 
 Both supervised and reinforcement learning have their own strengths and weaknesses like supervised learning is more preferred in case 
 of static and less interactive environment where as reinforcement learning is more preferred for dynamically changing data set and more 
@@ -484,6 +485,11 @@ Deep learning has its own disadvantages like it requires a large amount of label
 data sets are expensive whereas ML can produce somewhat same result with less data. Deep learning also requires GPUs which are more 
 expensive as compared to CPUs. Developing models of linear regression are more preferred in ML as it finishes the task in a more simple way.
 Both have their own strengths and weaknesses so we should choose between the two on the basis of our problem statement. 
+
+ML can be used in healthcare for disease diagnosis , in alimony detection , in recommendation systems and in many more places.
+Deep learning can also be used in alimony detection but it will involve abstraction of complex patterns. It can also be used in content
+generation or in language translation.Tesla uses deep learning models to detect obstacles and also helps in traffic light and signal 
+recognition.
 
 Question 2
 def palin(num):
