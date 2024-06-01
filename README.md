@@ -3,62 +3,67 @@ Assigment 1
 Question 1
 # Take value of n (dtype = float) as an input from user and print it 
 n = 3.4
+
 Answer 
+
 value=float(input("Enter value of n:"))
+
 print(value)
 
 Question 2
-# Check if the input value is integer or not
-# If not integer then keep on taking the values from user until the input value is integer
-# And check whether the integral input value is even or odd
-
-while         :
-  if    :
-    
-
-  else        :
-    
-    
-    
-    
-if       :
-  if      :
-    print(f"n={n} is even")
-  else    :
-    print(f"n={n} is odd")
-n=3.4 is not an integer
-n=4.56 is not an integer
-n=5.0 is an Integer
-n=5.0 is odd
+ 
 Answer
+
 i=1
+
 while(i>0):
+
     value=input()
+    
     if(value.isnumeric()):
+    
         i=-1
+        
         print("n ="+value+" is an integer")
+        
     else:
+    
         i=i+1
+        
         print("n ="+value+" is not integer")
         
 if(i==-1):
+
     if(int((value))%2==0):
+    
         print("n ="+value+" is even")
+        
     else:
+    
          print("n ="+value+"is odd")
+         
 
 Question 3
 # Define an array and take its elements as input
+
 import numpy as np
 
 n =
-arr = 
+
+arr =
+
 Answer
+
 import numpy as np
+
 n=int(input())
+
 arr=np.array([0]*n)
+
 for i in range(0,n):
+
     a=input()
+    
     arr[i] =a 
 
 print(arr)
