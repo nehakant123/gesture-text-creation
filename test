@@ -525,14 +525,12 @@ print(arr.max())
 Question 4
 import pandas as pd
 import matplotlib.pyplot as plt
-df=pd.DataFrame({'Name':['A','B','C','D','E','F','G','H','I','J'],
-                 'Age':[21,30,29,32,35,21,22,23,25,19],
-                 'City':['Lucknow','Bombay','Mussorie','Vanarasi','Kanpur','Lucknow',
-                         'Mussorie','Bombay','Lucknow','Lucknow']})
+df=pd.DataFrame({'Name':['A','B','C'],
+                 'Age':[21,31,35],
+                 'City':['Lucknow','Bombay','Mussorie']})
 print(df)
-df.query('Age<=30',inplace=True)
-print(df)
-df['Salary']=[50000,60000,70000,50000,50000,60000,70000,60000]
+print(df.query('Age>30'))
+df['Salary']=[50000,60000,70000]
 print(df[['City','Salary']])
 by_city=df.groupby(['City'])
 print(by_city['Age'].mean())
