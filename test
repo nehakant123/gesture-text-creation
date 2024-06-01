@@ -435,33 +435,52 @@ print(l[index],end=" ")
 print(" :Max element in all diagonal elements")
 
 Softmax function
-It is a mathematical function which converts array of numbers into array of probability. It is widely used in ML to convert raw data into probability along with normalisation of the values. for a given data set if for a particular value the set gives highest probability then it means that value affects the given model the most, and we can also remove some data set of least probability as per requirement.we can also determine a threshold probability value above which we can declare the given model as accurate.Here in this case 406 shows the highest probability while -100 shows the least.
+It is a mathematical function which converts array of numbers into array of probability. It is widely used in ML to convert raw data into 
+probability along with normalisation of the values. for a given data set if for a particular value the set gives highest probability then 
+it means that value affects the given model the most, and we can also remove some data set of least probability as per requirement.
+we can also determine a threshold probability value above which we can declare the given model as accurate.Here in this case 406 shows 
+the highest probability while -100 shows the least.
 
 Assigment 1 part-2
 Question-1
 For supervised learning(or classification) 
-Supervised learning is basically a teaching and learning method where the machine learns from a given data set and implement the same learning on a new data set.we train machine with a labelled data set and then checks its learning on a new unlabelled data set. 
+Supervised learning is basically a teaching and learning method where the machine learns from a given data set and implement the same 
+learning on a new data set.we train machine with a labelled data set and then checks its learning on a new unlabelled data set. 
 It can be classified into two types regression and classification 
 Regression works on continuous values.
 Classification basically means giving answer in true or false for example if a given email is spam or not , or whether it will rain or not.
 We keep on testing this model on different test cases and tries to increase its accuracy.
 
 Unsupervised learning(or clustering)
-Essentially it means learning on its own. We do not train machine with labelled data and directly implements it on unlabelled data and the machine tries to find similar data by identifying similar patterns , colour and shape and store it as a cluster.
-Unsupervised can be used for recommending movies, song, books ,or clothes  as the model observes similarity in pattern and behaviour of various users. 
-Unsupervised learning is uncertain as compared to supervised learning because firstly it works on a model to identify similar patterns which makes this work a bit challenging and it does not have a clear objective like it involves identifying similar patterns and then clustering it or reducing  the dimensionality of data set which somewhat affects the accuracy of the model.
+Essentially it means learning on its own. We do not train machine with labelled data and directly implements it on unlabelled data and 
+the machine tries to find similar data by identifying similar patterns , colour and shape and store it as a cluster.
+Unsupervised can be used for recommending movies, song, books ,or clothes  as the model observes similarity in pattern and behaviour of 
+various users. 
+Unsupervised learning is uncertain as compared to supervised learning because firstly it works on a model to identify similar patterns 
+which makes this work a bit challenging and it does not have a clear objective like it involves identifying similar patterns and then 
+clustering it or reducing  the dimensionality of data set which somewhat affects the accuracy of the model.
 
 Reinforcement learning
-It’s a kind of hit and trial method. The models tries every possible path to reach the solution and then chooses the most optimal path for the problem. The  model completely depends not the decision taken by the software without having any previous experience. It is autonomous. 
+It’s a kind of hit and trial method. The models tries every possible path to reach the solution and then chooses the most 
+optimal path for the problem. The  model completely depends not the decision taken by the software without having any previous experience. 
+It is autonomous. 
 Tesla uses reinforcement learning where the car learns the control and navigate itself in various tricky situations.
 
-Both supervised and reinforcement learning have their own strengths and weaknesses like supervised learning is more preferred in case of static and less interactive environment where as reinforcement learning is more preferred for dynamically changing data set and more interactive environment. 
+Both supervised and reinforcement learning have their own strengths and weaknesses like supervised learning is more preferred in case 
+of static and less interactive environment where as reinforcement learning is more preferred for dynamically changing data set and more 
+interactive environment. 
 
 
 
 Machine learning vs deep learning 
-Deep learning is a subset of machine learning. In machine learning we use supervised learning which requires human intervention whereas in deep learning we use unsupervised learning where the computer itself find abstracts similar patterns by passing data through different layers and tells us about the output and can also work on a large data set. Deep learning involves more than 3 layers. Deep learning requires a large amount of data to work on and can produce more accurate results than machine learning.machine learning relies on human input which limits the model ability to work on new data set.
-Deep learning has its own disadvantages like it requires a large amount of labelled data to produce more efficient results and those data sets are expensive whereas ML can produce somewhat same result with less data. Deep learning also requires GPUs which more expensive as compared to CPUs. Developing models of linear regression are more preferred in ML as it does the task in a more simple way.
+Deep learning is a subset of machine learning. In machine learning we use supervised learning which requires human intervention whereas
+in deep learning we use unsupervised learning where the computer itself find abstracts similar patterns by passing data through 
+different layers and tells us about the output and can also work on a large data set. Deep learning involves more than 3 layers. 
+Deep learning requires a large amount of data to work on and can produce more accurate results than machine learning.machine learning 
+relies on human input which limits the model ability to work on new data set.
+Deep learning has its own disadvantages like it requires a large amount of labelled data to produce more efficient results and those 
+data sets are expensive whereas ML can produce somewhat same result with less data. Deep learning also requires GPUs which more 
+expensive as compared to CPUs. Developing models of linear regression are more preferred in ML as it does the task in a more simple way.
 Both have their own strengths and weaknesses so we should choose between the two on the basis of our problem statement. 
 
 Question 2
