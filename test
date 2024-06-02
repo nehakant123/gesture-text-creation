@@ -531,7 +531,7 @@ df=pd.DataFrame({'Name':['A','B','C'],
 print(df)
 print(df.query('Age>30'))
 df['Salary']=[50000,60000,70000]
-print(df[['City','Salary']])
+print(df)
 by_city=df.groupby(['City'])
 print(by_city['Age'].mean())
 plt.title("Age vs Salary")
