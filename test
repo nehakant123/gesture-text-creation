@@ -498,7 +498,7 @@ def palin(num):
   while(a>0):
        b=a%10
        rev=rev*10+b
-       print(rev)
+       #print(rev)
        a=a//10
   
   if(rev==num):
